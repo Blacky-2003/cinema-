@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 600;
+  }
+  .ticket {
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    margin: 25px auto;
+    position: relative;
+  }
+
+  .ticket-header{
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .brand-logo{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .movie-name{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .title {
+    padding: 50px 25px 10px;
+  }
+  
+  .cinema {
+    color: #aaa;
+    font-size: 22px;
+  }
+  
+  .movie-title {
+    font-size: 50px;
+  }
+  
+  .info {
+    padding: 15px 25px;
+    background-color: white;
+  }
+  
+  table {
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  
+  th {
+    text-align: left;
+    padding-bottom: 5px;
+  }
+  
+  td {
+    font-size: 13px;
+  }
+  
+  .bigger {
+    font-size: 13px;
+  }
+  
+  .parkingSection, .food-section{
+    font-size: 14px;
+    border-top: dotted black;
+    width: 100%;
+  }
+
+  .parkingSection>div{
+    margin: 0px 25px;
+    padding: 10px 0px;
+  }
+
+  .food-section>div{
+    margin: 0px 25px;
+    padding: 10px 0px;
+  }
+
